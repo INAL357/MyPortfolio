@@ -74,7 +74,7 @@ const Projects = ({ projectsSectionRef }) => {
 
         {/* Heading */}
         <div className="mb-10">
-          <h1 className="text-5xl font-bold">
+          <h1 className="text-4xl font-bold sm:text-5xl">
             Selected{" "}
             <span className="text-cyan-400">
               projects.
@@ -92,7 +92,7 @@ const Projects = ({ projectsSectionRef }) => {
         <div className="grid grid-cols-1 overflow-hidden rounded-2xl border border-slate-800 bg-[#111111] lg:grid-cols-2">
 
           {/* Project Image */}
-          <div className="relative min-h-[350px] overflow-hidden bg-[#181818]">
+          <div className="relative min-h-[240px] overflow-hidden bg-[#181818] sm:min-h-[350px]">
 
             <img
               src={activeProject.image}
@@ -110,7 +110,7 @@ const Projects = ({ projectsSectionRef }) => {
           </div>
 
           {/* Project Details */}
-          <div className="flex flex-col justify-center p-8 lg:p-10">
+          <div className="flex flex-col justify-center p-5 sm:p-8 lg:p-10">
 
             <p className="font-mono text-xs tracking-widest text-cyan-400">
               {activeProject.type}

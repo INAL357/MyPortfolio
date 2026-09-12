@@ -49,7 +49,7 @@ const PortfolioEditor = ({onAboutClick, onProjectsClick}) => {
         </div>
 
         {/* Code Area */}
-        <div className="relative flex min-h-[270px] p-6 leading-relaxed">
+        <div className="relative flex min-h-[270px] overflow-x-auto p-4 leading-relaxed sm:p-6">
 
           {/* Line Numbers */}
           <div
@@ -74,7 +74,7 @@ const PortfolioEditor = ({onAboutClick, onProjectsClick}) => {
           </div>
 
           {/* Typewriter */}
-          <div className="w-full whitespace-pre pl-4 text-left">
+          <div className="min-w-0 w-full whitespace-pre-wrap pl-3 text-left sm:pl-4">
             <Typewriter
               options={{
                 delay: 40,
@@ -135,7 +135,7 @@ const PortfolioEditor = ({onAboutClick, onProjectsClick}) => {
         {/* Bottom Actions */}
         <div
           className="
-            flex
+            flex flex-wrap
             gap-4
             border-t
             border-neutral-800/60

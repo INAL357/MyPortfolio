@@ -6,7 +6,7 @@ const GetInTouch = ({onContactClick}) => {
     <button
       onClick={onContactClick}
       className="
-        group relative mr-12  inline-flex h-14 w-40
+        group relative inline-flex h-14 w-40
         items-center justify-center overflow-hidden
         font-bold uppercase tracking-[2px]
         text-cyan-400 transition-all duration-500

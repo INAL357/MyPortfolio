@@ -47,12 +47,12 @@ const EducationDetails = () => {
       <div className="mx-auto max-w-7xl">
 
         {/* Section Heading */}
-        <h1 className="mb-16 text-center text-5xl font-bold">
+        <h1 className="mb-12 text-center text-4xl font-bold sm:mb-16 sm:text-5xl">
           Education & Experience
         </h1>
 
         {/* Two Columns */}
-        <div className="grid grid-cols-1 gap-16 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:gap-16">
 
           {/* ================= EDUCATION ================= */}
           <div>

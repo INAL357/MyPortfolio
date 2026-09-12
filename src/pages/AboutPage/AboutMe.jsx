@@ -12,18 +12,18 @@ const AboutMe = ({ aboutSectionRef, educationRef }) => {
         ref={aboutSectionRef}
         className="min-h-screen bg-black px-6 py-15 text-white"
       >
-        <h1 className="mb-12 text-center text-6xl font-bold">
+        <h1 className="mb-10 text-center text-4xl font-bold sm:mb-12 sm:text-5xl lg:text-6xl">
           Who am I
         </h1>
 
         <div className="mx-auto grid max-w-6xl grid-cols-1 items-start gap-8 md:grid-cols-2">
 
           {/* Left Profile Card */}
-          <div className="rounded-2xl border border-slate-700 bg-[#1c1c1c] px-8 py-10">
+          <div className="min-w-0 rounded-2xl border border-slate-700 bg-[#1c1c1c] px-5 py-8 sm:px-8 sm:py-10">
 
             {/* Profile */}
             <div className="mb-12 flex justify-center">
-              <div className="h-56 w-56 overflow-hidden rounded-full border-2 border-cyan-400 p-1">
+              <div className="h-44 w-44 overflow-hidden rounded-full border-2 border-cyan-400 p-1 sm:h-56 sm:w-56">
                 <img
                   src={portfolio}
                   alt="My Profile"

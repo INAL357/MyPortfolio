@@ -34,9 +34,9 @@ const TableData = () => {
           {/* Left column */}
           <td
             className="
-              w-1/3
+              w-[42%]
               py-4
-              text-sm
+              pr-3 text-xs sm:text-sm
               tracking-wider
               text-slate-500
             "
@@ -49,7 +49,7 @@ const TableData = () => {
             className="
               py-4
               text-right
-              text-sm
+              text-xs sm:text-sm
               tracking-wider
               text-slate-200
             "

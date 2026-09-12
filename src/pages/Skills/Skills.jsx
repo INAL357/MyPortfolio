@@ -131,7 +131,7 @@ const Skills = () => {
       : skills.filter((skill) => skill.category === activeCategory);
 
   return (
-    <section className="min-h-screen bg-black px-5 py-16 text-white">
+    <section id="skills" className="min-h-screen bg-black px-4 py-16 text-white sm:px-5">
       <div className="mx-auto max-w-6xl">
 
         <h1 className="mb-8 text-center text-4xl font-bold">

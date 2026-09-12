@@ -64,8 +64,8 @@ const Certificates = () => {
   );
 
   return (
-    <section className="min-h-screen bg-black px-6 py-20 text-white relative">
-      <h1 className="mb-16 text-center text-4xl font-bold tracking-tight">
+    <section className="relative min-h-screen bg-black px-4 py-16 text-white sm:px-6 sm:py-20">
+      <h1 className="mb-12 text-center text-3xl font-bold tracking-tight sm:mb-16 sm:text-4xl">
         Certifications & Qualifications
       </h1>
 

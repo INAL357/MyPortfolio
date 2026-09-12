@@ -48,10 +48,7 @@ const educationRef = useRef(null)
                 onEducation = {()=>scrollToSection(educationRef)}
               />
 
-              <AboutMe
-                aboutSectionRef={aboutSectionRef}
-                EducationDetails educationRef={educationRef}
-              />
+              <AboutMe aboutSectionRef={aboutSectionRef} educationRef={educationRef} />
 
               <Projects
                 projectsSectionRef={projectsSectionRef}
