@@ -6,7 +6,7 @@ The portfolio is designed as a responsive single-page website with dedicated sec
 
 ## 🚀 Live Portfolio
 
-**Portfolio:** [[Add your deployed Vercel URL here]](https://inalmendoncaportfolio.vercel.app/)
+**Portfolio:** [[https://inalmendoncaportfolio.vercel.app/]]
 
 ## 👨‍💻 About
 
